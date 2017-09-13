@@ -1,0 +1,25 @@
+{
+    "name": "kovsky0/pdo-wrapper",
+    "description": "Simple PDO wrapper - a collection of crud methods for working with a database this includes selecting, inserting, updating and deleting records.",
+    "keywords": ["pdo", "php pdo"],
+    "homepage": "https://github.com/kovsky0/pdo-wrapper",
+    "type": "library",
+    "version": "1.0",
+    "require": {
+        "php": ">=5.2.4",
+    },
+    "authors": [
+        {
+            "name": "David Carr",
+            "homepage": "http://daveismyname.blog"
+        },
+        {
+            "name": "Daniel Wyrzykowski",
+            "email": "daniel@altruisto.com",
+            "homepage": "https://twitter.com/kovsky0"
+        }
+    ],
+    "autoload": {
+        "files": ["database.php"]
+    }
+}
